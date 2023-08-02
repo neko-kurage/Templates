@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "three": "^0.153.0",
+    "animejs": "^3.2.1"
+  }
+}
