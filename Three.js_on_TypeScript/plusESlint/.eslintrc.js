@@ -18,10 +18,11 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
-        'no-console': process.env.NODE_ENV === 'production' ? 2 : 0,
-        'no-unused-vars': ['error', { argsIgnorePattern: '^_' } ],
+        "no-console": process.env.NODE_ENV === 'production' ? 2 : 0,
+        "no-unused-vars": ['error', { argsIgnorePattern: '^_' } ],
+        "keyword-spacing": ["error"],
         "semi": [2, "always"],
         '@typescript-eslint/explicit-module-boundary-types': 0,
-        '@typescript-eslint/explicit-function-return-type': 1
+        '@typescript-eslint/explicit-function-return-type': 1,
     }
 };
